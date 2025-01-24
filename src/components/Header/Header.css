@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.logo {
+    height: 40px;
+    
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;   
+    align-items: flex-end; 
+    height: 40px;
+    padding: 0;
+    
+}
+
+.menu-list li {
+    cursor: pointer;
+    padding: 0;
+    white-space: nowrap;
+}

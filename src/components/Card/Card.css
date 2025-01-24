@@ -1,0 +1,43 @@
+.card {
+    width: 380px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    margin: 0;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-image img {
+    height: 200px;
+    width: 190px;
+    margin: 0;
+}
+
+.card-title {
+    font-family: "Elsie Swash Caps";
+    font-size: 32px;
+    margin: 0;
+}
+
+.card-value {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+    margin-left: 0;
+}   
+
+.card-button-container {
+    cursor: pointer;
+}
+
+.card-button {
+    color: #FFCB47;
+    font-weight: 500;
+    margin-left: 0;
+}

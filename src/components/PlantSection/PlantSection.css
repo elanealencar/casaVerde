@@ -1,0 +1,61 @@
+.plant-section {
+    display: flex;
+    flex-direction: row;
+    width: 995px;
+    height: 440px;
+    background-color: white;
+    margin-bottom: 100px;
+    align-items: center;  
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.plant-photo {
+    width: 585px;
+    height: 440px;
+    background-image: url('../../assets/images/plant-section.png');
+    background-size: cover;
+    background-position: top left;
+    margin-left: 0;
+      
+}
+
+.plant-content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 410px;
+}
+
+.plant-content p {
+    font-size: 24px;
+    color: #C4C4C4;
+
+}
+
+.plant-content h3 {
+    font-size: 40px;
+    font-family: "Elsie Swash Caps";
+    width: 410px;
+}
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFCB47;
+    padding-top: 0;
+    margin: 0;
+}
+
+.plant-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #C4C4C4;
+    align-items: center;
+    }

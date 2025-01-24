@@ -1,0 +1,31 @@
+.offers-section {
+    margin-bottom: 100px;
+}
+
+.offers-title {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #202020;
+    
+}
+
+.offers-title p {
+    font-family: 'Elsie Swash Caps';
+    font-size: 82px;
+    font-weight: 900;    
+}
+
+.cards-section {
+    width: 1200px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;     
+}
+
+.cards-section div {
+    margin: 0;
+    padding: 0;
+}
