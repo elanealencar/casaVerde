@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../src/assets/images/bg-white.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
